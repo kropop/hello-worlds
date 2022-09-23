@@ -59,3 +59,10 @@ def mixes_up_hello_terrible():
 print(mixes_up_hello_terrible())
 
 # very bad!
+# now let's try user inputs
+
+print("What number am I thinking of?")
+
+number = input()
+
+print("wow, you're good, the number really was " + str(number) + "!")
